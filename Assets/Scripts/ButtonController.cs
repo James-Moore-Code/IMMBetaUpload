@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ButtonController : MonoBehaviour
 { 
-    public string url = "https://vle-bn.tudublin.ie/login/index.php";
+    private string url = "https://github.com/James-Moore-Code/IMMBetaUpload";
     public void PlayGame()
     {
         SceneManager.LoadScene("MyGame");
@@ -25,8 +25,6 @@ public class ButtonController : MonoBehaviour
     {
         SceneManager.LoadScene("Menu");
     }
-
-
     public void LinkToGithub()
     {
         Application.OpenURL(url);
